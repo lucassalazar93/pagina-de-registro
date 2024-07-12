@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #333333;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+form button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #357ab8;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+form label[for="terminos"] {
+    display: inline;
+    font-size: 14px;
+    color: #666666;
+}
